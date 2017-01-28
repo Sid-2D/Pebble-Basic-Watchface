@@ -20,7 +20,8 @@
       "watchface": true
     },
     "messageKeys": [
-      "dummy"
+      "name",
+      "fees"
     ],
     "resources": {
       "media": [
@@ -34,7 +35,13 @@
 	  "type": "bitmap",
 	  "name": "IMAGE_BACKGROUND",
 	  "file": "images/background.png"
-	}
+	},
+	{
+    "type":"font",
+    "name":"FONT_PERFECT_DOS_20",
+    "file":"perfect-dos-vga.ttf",
+    "compatibility": "2.7"
+    }
       ]
     }
   }
